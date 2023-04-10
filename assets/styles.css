@@ -28,7 +28,10 @@ body{
 .contenedor{
     width: 120rem;
     margin: 0 auto 0 auto;
-    padding: 2rem;
+}
+
+.center{
+    text-align: center;
 }
 
 .name-title{
@@ -38,14 +41,30 @@ body{
     
 }
 
-.name-title span{
+.title-span{
     font-size: 2rem;
     color: var(--morado);
     /*1 rem = 10px*/
 }
 
 .nav{
-    background-color: var(--verde);
+    background-color: var(--verde_oscuro);
+}
+.navegacion-principal {
+    display: flex;
+    justify-content: space-around;
 }
 
+.navegacion-principal .enlace_nav{
+    text-decoration: none;
+    color: #fff;
+    font-size:2rem;
+    font-weight:400;
+    padding: 1.5rem;
+}
+
+.navegacion-principal .enlace_nav:hover{
+    background-color: var(--verde);
+    color: var(--morado-obscuro);
+}
 
