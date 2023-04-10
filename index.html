@@ -6,46 +6,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>freelancer</title>
+    <link rel="preload" href="/assets/normalize.css" as="style">
+    <link rel="stylesheet" href=assets/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/assets/styles.css" as="style">
+    <link rel="stylesheet" href="/assets/styles.css">
 </head>
 
 <body>
     <header class="heading">
         <section class="name">
-            <h2>Geovanni Benjamin Vera Balcazar freelancer</h2>
+            <h1 class="name-title capitalize">geovanni benjamin vera balcazar <span>freelancer</span></h1>
         </section>
-        <section class="menu">
+        <section class="nav">
+            <nav class="navegacion-principal contenedor">
+                <a href="#" class="enlace_nav capitalize">inicio</a>
+                <a href="#" class="enlace_nav capitalize">sobre mi</a>
+                <a href="#" class="enlace_nav capitalize">clientes</a>
+                <a href="#" class="enlace_nav capitalize">contacto</a>
+            </nav>
 
         </section>
     </header>
     <section class="ddwf">
-        <h2>Diseño y Desarollo Web Freelancer</h2>
-        <p>Ciudad de Mexíco</p>
+        <h2 class="capitalize">diseño y desarollo web freelancer</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="11" r="3" />
+            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+        </svg>
+        <p class="capitalize">ciudad de mexíco</p>
+        <a href="#" class="btn capitalize">contactar</a>
     </section>
     <main class="main">
         <section class="services">
 
-            <h2 class="titulo">Mis servicios</h2>
+            <h2 class="titulo capitalize">mis servicios</h2>
 
             <section class="container-tarjets">
                 <section class="tarjet">
-                    <h3>Desarollo Web</h3>
-                    <img src="" alt="image.svg">
+                    <h3 class="capitalize">diseño web</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book" width="88"
+                        height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                        <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                        <line x1="3" y1="6" x2="3" y2="19" />
+                        <line x1="12" y1="6" x2="12" y2="19" />
+                        <line x1="21" y1="6" x2="21" y2="19" />
+                    </svg>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium blanditiis.
                         Voluptatem possimus ex error. Expedita fugiat corrupti aliquam quos nobis omnis voluptatem alias
                         repudiandae repellendus odit consequatur, earum aperiam!</p>
                 </section>
 
                 <section class="tarjet">
-                    <h3>Aplicaciones moviles</h3>
-                    <img src="" alt="image.svg">
+                    <h3 class="capitalize">aplicaciones moviles</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-android"
+                        width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="4" y1="10" x2="4" y2="16" />
+                        <line x1="20" y1="10" x2="20" y2="16" />
+                        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+                        <line x1="8" y1="3" x2="9" y2="5" />
+                        <line x1="16" y1="3" x2="15" y2="5" />
+                        <line x1="9" y1="18" x2="9" y2="21" />
+                        <line x1="15" y1="18" x2="15" y2="21" />
+                    </svg>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium blanditiis.
                         Voluptatem possimus ex error. Expedita fugiat corrupti aliquam quos nobis omnis voluptatem alias
                         repudiandae repellendus odit consequatur, earum aperiam!</p>
                 </section>
 
                 <section class="tarjet">
-                    <h3>E-Commerce</h3>
-                    <img src="" alt="image.svg">
+                    <h3 class="capitalize">e-commerce</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-store"
+                        width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00b341" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <line x1="3" y1="21" x2="21" y2="21" />
+                        <path d="M3 7v1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1m0 1a3 3 0 0 0 6 0v-1h-18l2 -4h14l2 4" />
+                        <line x1="5" y1="21" x2="5" y2="10.85" />
+                        <line x1="19" y1="21" x2="19" y2="10.85" />
+                        <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+                    </svg>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, laudantium blanditiis.
                         Voluptatem possimus ex error. Expedita fugiat corrupti aliquam quos nobis omnis voluptatem alias
                         repudiandae repellendus odit consequatur, earum aperiam!</p>
@@ -55,13 +105,43 @@
             </section>
         </section>
     </main>
-    
+
     <section class="contact">
-        <h2>Contacto</h2>
+        <h2 class="capitalize">contacto</h2>
+
+        <form action="">
+            <fieldset>
+                <legend class="capitalize">contactame llenado todos los campos</legend>
+
+                <div>
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="Tu Nombre">
+                </div>
+
+                <div>
+                    <label for="">Telefono</label>
+                    <input type="tel" name="" id="" placeholder="Tu numero">
+                </div>
+
+                <div>
+                    <label for="">Correo</label>
+                    <input type="email" name="" id="" placeholder="Tu Email">
+                </div>
+
+                <div>
+                    <label for="">Mensaje</label>
+                    <textarea></textarea>
+                </div>
+
+                <div><input type="submit" value="Enviar"></button></div>
+            </fieldset>
+        </form>
     </section>
+
     <footer>
-        <p>&copy Todos los derechos reservados Geovanni Vera</p>
+        <p class="capitalize">&copy Todos los derechos reservados Geovanni Vera</p>
     </footer>
+
 </body>
 
 </html>

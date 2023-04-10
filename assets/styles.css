@@ -1,0 +1,51 @@
+:root{
+  --amarillo: #fea304 ;
+  --verde :#909320 ;
+  --verde_oscuro:#125a44 ;
+  --morado :#37192c ;
+  --morado-obscuro:#220315 ;  
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%
+}
+
+body{
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto 0 auto;
+    padding: 2rem;
+}
+
+.name-title{
+    text-align: center;
+    font-size: 3.8rem;
+    color: var(--morado-obscuro);
+    
+}
+
+.name-title span{
+    font-size: 2rem;
+    color: var(--morado);
+    /*1 rem = 10px*/
+}
+
+.nav{
+    background-color: var(--verde);
+}
+
+
