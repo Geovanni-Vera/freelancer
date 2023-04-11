@@ -1,10 +1,10 @@
 :root{
   --amarillo: #4f9e41/*#fea304*/ ;
-  --verde :#4f393c ;
-  --verde_oscuro:/*#125a44*/#247e19;
-  --morado :#37192c ;
-  --morado-obscuro:#220315 ; 
-  --colorbg:#d2ffb9; 
+  --color2:#4f393c ;
+  --color3:/*#125a44*/rgb(40, 40, 40);
+  --color4 :#37192c ;
+  --color5:#220315 ; 
+  --colorbg:rgba(159, 159, 159, .2); 
 }
 *{
     margin: 0;
@@ -20,6 +20,10 @@ body{
     height: 100%;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 16px;
+}
+
+.fontzize{
+    font-size: 2rem;
 }
 
 .decoration{
@@ -44,22 +48,24 @@ body{
     text-align: center;
 }
 
+/*Nombre*/
 .name-title{
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: var(--morado-obscuro);
+    color: var(--color5);
     
 }
 
 .title-span{
     font-size: 2rem;
-    color: var(--morado);
+    color: var(--color4);
     /*1 rem = 10px*/
 }
 
+/*Navegador*/
 .nav{
-    background-color: var(--verde_oscuro);
+    background-color: var(--color3);
 }
 .navegacion-principal {
     display: flex;
@@ -77,32 +83,36 @@ body{
 }
 
 .navegacion-principal .enlace_nav:hover{
-    background-color: var(--verde);
+    background-color: var(--color2);
     color:#fff;
 }
 /*DDWF*/
 .ddwf{
     font-size: 1.5rem;
-   
 }
 
 
 .hero{
-    background-image:url(../hero.jpg);
+    padding: 2rem;
+    background-image:url(../hero.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    opacity: 80%;
+    height: 25vh;
 }
 
 .contenido-hero {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: #fff;
+    align-items: center;   
 }
 
-.contenido-hero span {
-    color: #fff;
+.contenido-hero a{
+    color: #000;
 }
+
+
 /*main*/
 .main{
     background-color: var(--colorbg);
@@ -117,7 +127,7 @@ body{
 }
 
 .tarjet{
-    background-color: var(--amarillo);
+    background-color: var(--color3);
     color: #fff;
     margin: 1rem 1rem;
     display: flex;
@@ -132,7 +142,7 @@ body{
 
 /*footer*/
 .footer{
-    background-color: var(--verde_oscuro);
+    background-color: var(--color3);
     color: #fff;
 }
 
@@ -142,8 +152,15 @@ body{
     }
 
     .ddwf{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
+
+    .hero{
+        height: 50vh;
+        background-size:cover;
+       
+    }
+
     .navegacion-principal{
         flex-direction: row;
         justify-content: space-around;
