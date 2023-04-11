@@ -1,10 +1,10 @@
 :root{
-  --amarillo: #e10b03/*#fea304*/ ;
+  --amarillo: #4f9e41/*#fea304*/ ;
   --verde :#4f393c ;
-  --verde_oscuro:/*#125a44*/#8c0000;
+  --verde_oscuro:/*#125a44*/#247e19;
   --morado :#37192c ;
   --morado-obscuro:#220315 ; 
-  --colorbg:#ffffdb; 
+  --colorbg:#d2ffb9; 
 }
 *{
     margin: 0;
