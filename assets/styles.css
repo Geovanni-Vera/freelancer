@@ -216,6 +216,7 @@ h1,h2,h3{
     box-shadow: 10px 10px 8px #000;
     justify-content: space-around;
     align-items: center;
+    cursor: pointer;
 }
 .card:hover{
     background-color: rgba(216, 184, 4, 0.76);
